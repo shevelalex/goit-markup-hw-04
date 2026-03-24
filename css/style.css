@@ -141,7 +141,7 @@ a:active {
         47,
         66,
         0.7)),
-    url(../images/people-office.jpg);
+    url(/images/bg-top.jpg);
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 188px;
