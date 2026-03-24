@@ -46,8 +46,8 @@ a:active {
 
 .header {
   padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
+  /* padding-bottom: 24px; */
 }
 
 .nav {
@@ -88,6 +88,20 @@ a:active {
 .nav-item:hover,
 .nav-item:focus {
   color: #404bbf;
+}
+
+.active {
+  color: #404BBF;
+}
+
+.active::after {
+  content: '';
+  display: block;
+  margin-top: 20px;
+  width: 48px;
+  height: 4px;
+  background-color: #404BBF;
+  border-radius: 2px;
 }
 
 .header-nav {
@@ -265,6 +279,32 @@ a:active {
   color: #434455;
 }
 
+.team-sm-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.team-sm-link {
+  display: flex;
+  background-color: #4D5AE5;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.team-sm-link:hover {
+  background-color: #31D0AA;
+}
+
+.team-sm-icon {
+  fill: transparent;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -317,6 +357,11 @@ a:active {
   padding-bottom: 100px;
 }
 
+.footer-list {
+  display: flex;
+  gap: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -340,4 +385,38 @@ a:active {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-text-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-sm-list {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.footer-sm-link {
+  display: flex;
+  background-color: #4D5AE5;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.footer-sm-link:hover {
+  background-color: #31D0AA;
+}
+
+.footer-sm-icon {
+  fill: transparent;
 }
