@@ -365,9 +365,7 @@ a:active {
   top: 0;
   height: 100%;
   width: 100%;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 40px;
+  padding: 40px 32px;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
